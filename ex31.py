@@ -5,9 +5,10 @@ door = input("> ")
 
 if door == '1':
     print("There is a giant bear here eating a chees cake.")
-    print("What do wyou do?")
+    print("What do you do?")
     print("1. Take the cake.")
     print("2. Scream at the bear.")
+    print("3. Run away!") # SD 2
 
     bear = input("> ")
 
@@ -15,8 +16,10 @@ if door == '1':
         print("The bear eats your face off. Good job!")
     elif bear == "2":
         print("The bear eats your legs off. Good job!")
+    elif bear == "3":
+        print("You completed the game. Good job!")
     else:
-        print(f"well, boing {bear} is probably better.")
+        print(f"well, doing {bear} is probably better.")
         print("Bear runs away.")
 
 elif door == '2':
